@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #005f73;
+    color: white;
+    padding: 20px 0;
+}
+
+.logo h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.post {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.post h1 {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #005f73;
+}
+
+.post-container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.postsp {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.postsp img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.detalhes {
+    width: 400px;
+    height: 500px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    border: 0.7px solid #005f73 ;
+    text-align: left;
+    gap: 50px;
+}
+
+.detalhes .titulo{
+    color: #000000;
+    margin: 2px;
+}
+
+.titulo p {
+    font-size: 12px;
+    margin: 2px;
+    color: #000000;
+}
+
+.preco #avista{
+    font-size: 18px;
+    margin: 2px;
+    color: #000000;
+}
+
+.preco #cartao{
+    font-size: 12px;
+    margin: 2px;
+    color: #000000;
+}
+
+.cor{
+    
+}
+
+
+
+
+
+
+
+
+
+
+.descricao{
+    width: 60%;
+    margin: auto;
+    text-align: center;
+}
+
+.descricao p {
+    margin: 5px;
+}
+
+footer {
+    background-color: #005f73;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
