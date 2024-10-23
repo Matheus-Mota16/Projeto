@@ -111,7 +111,17 @@ nav ul li a {
 }
 
 .cor{
-    
+    font-size: 14px;
+    margin:2px;
+    padding: 2px;
+    color: #000000;
+}
+
+.cor #color{
+    width: 40px;
+    height: 40px;
+    background-color: #000000;
+    border-radius: 50px;
 }
 
 
