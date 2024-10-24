@@ -82,12 +82,12 @@ nav ul li a {
     display: flex;
     align-items: start;
     flex-direction: column;
-    border: 0.7px solid #005f73 ;
+    border: 0.7px solid #005f73;
     text-align: left;
     gap: 50px;
 }
 
-.detalhes .titulo{
+.detalhes .titulo {
     color: #000000;
     margin: 2px;
 }
@@ -98,26 +98,26 @@ nav ul li a {
     color: #000000;
 }
 
-.preco #avista{
+.preco #avista {
     font-size: 18px;
     margin: 2px;
     color: #000000;
 }
 
-.preco #cartao{
+.preco #cartao {
     font-size: 12px;
     margin: 2px;
     color: #000000;
 }
 
-.cor{
+.cor {
     font-size: 14px;
-    margin:2px;
+    margin: 2px;
     padding: 2px;
     color: #000000;
 }
 
-.cor #color{
+.cor #color {
     width: 40px;
     height: 40px;
     background-color: #000000;
@@ -133,7 +133,7 @@ nav ul li a {
 
 
 
-.descricao{
+.descricao {
     width: 60%;
     margin: auto;
     text-align: center;
@@ -149,4 +149,3 @@ footer {
     padding: 20px 0;
     text-align: center;
 }
-
