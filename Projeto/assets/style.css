@@ -88,6 +88,13 @@ nav ul li a {
     padding: 20px;
     text-align: center;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: 1s;
+}
+
+.produto:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .produto img {
@@ -134,6 +141,13 @@ nav ul li a {
     padding: 20px;
     text-align: center;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: 1s;
+}
+
+.produto2:hover{
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .produto2 img {
