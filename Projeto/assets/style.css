@@ -14,11 +14,37 @@ header {
     background-color: #005f73;
     color: white;
     padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
+.logo img {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #005f73;
+    color: white;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+
 .logo h1 {
-    text-align: center;
-    margin-bottom: 10px;
+    font-size: 32px;
+    font-weight: bold;
 }
 
 nav ul {
@@ -91,7 +117,7 @@ nav ul li a {
     overflow: hidden;
     transition: 1s;
     display: flex;
-    flex-direction: column; /* Para alinhar o botão ao final */
+    flex-direction: column;
 }
 
 .produto:hover {
@@ -123,7 +149,7 @@ nav ul li a {
     padding: 10px 15px;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: auto; /* Empurra o botão para o final do card */
+    margin-top: auto;
 }
 
 footer {
