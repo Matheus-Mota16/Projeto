@@ -138,5 +138,10 @@ font-size: 16px;
     color: white;
     font-size: 16px;
     font-weight: bold;
+    cursor: pointer;
+}
+.form_box button:hover{
+
+    background-color: #999;
 }
             
