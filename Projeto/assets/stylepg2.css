@@ -208,9 +208,7 @@ footer {
 /*PAYMANTS*/
 .container{
     display: none;
-    opacity: 0; /* Inicia com opacidade 0 */
-    transform: translateY(-20px); /* Inicia um pouco acima */
-    transition: opacity 0.8s ease, transform 0.8s ease; /* Transição suave */
+    
 }
 #mensagemSucesso {
     display: none; /* Inicialmente oculto */
@@ -218,18 +216,16 @@ footer {
     color: green;
     font-weight: bold;
 }
-
+/*container principal*/
 .container.active{
     display: flex;
     justify-content: center;
     align-items: center;
     padding:25px;
     min-height: 100vh;
-    opacity: 1; /* Torna totalmente visível */
-    transform: translateY(0); /* Restaura à posição original */
    
 }
-  
+  /*container formulario*/
   .container form{
     padding:20px;
     width:700px;
@@ -237,13 +233,13 @@ footer {
     box-shadow: 0 5px 10px rgba(0,0,0,.1);
     border-radius: 5px;
   }
-  
+  /*SEUS DADOS e PAGAMENTO*/
   .container form .row{
     display: flex;
     flex-wrap: wrap;
     gap:15px;
   }
-  
+  /*organizaçao entre os inputs*/
   .container form .row .col{
     flex:1 1 250px;
   }
