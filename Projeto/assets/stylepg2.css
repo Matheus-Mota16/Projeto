@@ -99,13 +99,58 @@ section.post h1 {
     margin-bottom: 10px;
 }
 
-#color {
+#color_B{
     width: 30px;
     height: 30px;
     background-color: black;
     border-radius: 50%;
     display: inline-block;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#color_W{
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+#color_M {
+    width: 30px;
+    height: 30px;
+    background-color:#321e17;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+#color_A {
+    width: 30px;
+    height: 30px;
+    background-color:#ebb167;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+#color_D{
+    width: 30px;
+    height: 30px;
+    background-color:#273253;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+#color_X{
+    width: 30px;
+    height: 30px;
+    background-color:#c1b4a6;
+    border-radius: 50%;
+    display: inline-block;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
 }
 
 .comprar {
