@@ -5,3 +5,10 @@ $(document).ready(function (){
 });
 
 
+
+$(document).ready(function (){
+    $('.btn-animate-btn').on('click',function(){  //botao ver produtos
+        $('.produtos').toggleClass('active') //inserir dados
+    });
+});
+
